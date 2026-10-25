@@ -1,0 +1,35 @@
++  0.0 min  loaded: 1199 epochs, 322214 bursts
++  0.1 min  band signals done
++  4.1 min  none/split fixed C3: burst acc=0.887 ll=0.299  band acc=0.785 ll=0.522  combined acc=0.920 ll=0.202
++  6.6 min  none/split fixed C3+C4: burst acc=0.943 ll=0.180  band acc=0.918 ll=0.191  combined acc=0.962 ll=0.095
++ 11.6 min  none/split fixed C3+C4+Cz+CPz: burst acc=0.938 ll=0.149  band acc=0.958 ll=0.118  combined acc=0.970 ll=0.087
++ 22.7 min  none/split fixed FC3+FCz+FC4+C3+Cz+C4+CP3+CPz+CP4: burst acc=0.990 ll=0.042  band acc=0.985 ll=0.055  combined acc=0.995 ll=0.025
++ 23.2 min  run none/split done
++ 27.5 min  none/all fixed C3: burst acc=0.895 ll=0.287  band acc=0.778 ll=0.538  combined acc=0.923 ll=0.204
++ 30.4 min  none/all fixed C3+C4: burst acc=0.965 ll=0.103  band acc=0.920 ll=0.184  combined acc=0.968 ll=0.073
++ 36.3 min  none/all fixed C3+C4+Cz+CPz: burst acc=0.963 ll=0.101  band acc=0.958 ll=0.128  combined acc=0.972 ll=0.074
++ 49.9 min  none/all fixed FC3+FCz+FC4+C3+Cz+C4+CP3+CPz+CP4: burst acc=0.982 ll=0.055  band acc=0.985 ll=0.051  combined acc=0.995 ll=0.027
++ 49.9 min  run none/all done
++ 53.7 min  faar/split fixed C3: burst acc=0.797 ll=0.384  band acc=0.778 ll=0.579  combined acc=0.853 ll=0.298
++ 55.6 min  faar/split fixed C3+C4: burst acc=0.938 ll=0.149  band acc=0.925 ll=0.200  combined acc=0.962 ll=0.091
++ 59.4 min  faar/split fixed C3+C4+Cz+CPz: burst acc=0.982 ll=0.045  band acc=0.962 ll=0.133  combined acc=0.975 ll=0.049
++ 67.7 min  faar/split fixed FC3+FCz+FC4+C3+Cz+C4+CP3+CPz+CP4: burst acc=0.991 ll=0.041  band acc=0.988 ll=0.048  combined acc=1.000 ll=0.023
++ 67.7 min  run faar/split done
++ 67.7 min  
+none/split  random subsets, log-loss median [min, max]; acc median
++ 67.7 min    1 ch  band=0.497 [0.434,0.676] acc=0.782  burst=0.374 [0.269,0.574] acc=0.860  combined=0.220 [0.173,0.303] acc=0.920  burst-band median=-0.171
++ 67.7 min    2 ch  band=0.271 [0.106,0.450] acc=0.899  burst=0.163 [0.057,0.423] acc=0.945  combined=0.092 [0.029,0.249] acc=0.970  burst-band median=-0.103
++ 67.7 min    4 ch  band=0.109 [0.051,0.201] acc=0.968  burst=0.097 [0.022,0.198] acc=0.964  combined=0.050 [0.020,0.139] acc=0.982  burst-band median=-0.027
++ 67.7 min    9 ch  band=0.055 [0.055,0.055] acc=0.985  burst=0.042 [0.042,0.042] acc=0.990  combined=0.025 [0.025,0.025] acc=0.995  burst-band median=-0.012
++ 67.7 min  
+none/all  random subsets, log-loss median [min, max]; acc median
++ 67.7 min    1 ch  band=0.497 [0.446,0.680] acc=0.775  burst=0.383 [0.266,0.506] acc=0.838  combined=0.219 [0.178,0.333] acc=0.920  burst-band median=-0.164
++ 67.7 min    2 ch  band=0.294 [0.118,0.451] acc=0.895  burst=0.146 [0.056,0.202] acc=0.949  combined=0.094 [0.029,0.160] acc=0.970  burst-band median=-0.122
++ 67.7 min    4 ch  band=0.114 [0.057,0.194] acc=0.966  burst=0.100 [0.017,0.213] acc=0.961  combined=0.055 [0.016,0.125] acc=0.982  burst-band median=-0.019
++ 67.7 min    9 ch  band=0.051 [0.051,0.051] acc=0.985  burst=0.055 [0.055,0.055] acc=0.982  combined=0.027 [0.027,0.027] acc=0.995  burst-band median=+0.004
++ 67.7 min  
+faar/split  random subsets, log-loss median [min, max]; acc median
++ 67.7 min    1 ch  band=0.484 [0.431,0.653] acc=0.770  burst=0.384 [0.218,0.653] acc=0.798  combined=0.235 [0.150,0.476] acc=0.886  burst-band median=-0.148
++ 67.7 min    2 ch  band=0.263 [0.136,0.500] acc=0.885  burst=0.113 [0.049,0.234] acc=0.951  combined=0.070 [0.052,0.211] acc=0.972  burst-band median=-0.166
++ 67.7 min    4 ch  band=0.116 [0.060,0.224] acc=0.952  burst=0.066 [0.009,0.142] acc=0.978  combined=0.041 [0.011,0.118] acc=0.985  burst-band median=-0.053
++ 67.7 min    9 ch  band=0.048 [0.048,0.048] acc=0.988  burst=0.041 [0.041,0.041] acc=0.991  combined=0.023 [0.023,0.023] acc=1.000  burst-band median=-0.007

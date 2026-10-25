@@ -1,0 +1,15 @@
+diff --git a/burst_analysis.py b/burst_analysis.py
+index 7c28cdd..a3704cf 100644
+--- a/burst_analysis.py
++++ b/burst_analysis.py
+@@ -756,8 +756,8 @@ class TfBursts:
+         # channels C3 and C4.
+         if self.produce_plots == True:
+ 
+-            c3 = int(np.where((np.array(self.channels) == "C3"))[0])
+-            c4 = int(np.where((np.array(self.channels) == "C4"))[0])
++            c3 = int(np.where((np.array(self.channels) == "C3"))[0][0])
++            c4 = int(np.where((np.array(self.channels) == "C4"))[0][0])
+ 
+             if (
+                 self.remove_fooof == True and\

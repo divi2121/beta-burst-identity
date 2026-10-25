@@ -1,0 +1,9 @@
++  0.2 min  filter banks done
++  7.0 min  fixed C3: burst acc=0.887 ll=0.299  band6 acc=0.785 ll=0.522  band18 acc=0.943 ll=0.158  burst+band18 acc=0.950 ll=0.141
++  7.1 min  fixed C3+C4: burst acc=0.943 ll=0.180  band6 acc=0.918 ll=0.191  band18 acc=0.985 ll=0.046  burst+band18 acc=0.982 ll=0.053
++  7.3 min  fixed C3+C4+Cz+CPz: burst acc=0.938 ll=0.149  band6 acc=0.958 ll=0.118  band18 acc=0.985 ll=0.036  burst+band18 acc=0.990 ll=0.038
++  7.5 min  fixed FC3+FCz+FC4+C3+Cz+C4+CP3+CPz+CP4: burst acc=0.990 ll=0.042  band6 acc=0.985 ll=0.055  band18 acc=0.998 ll=0.016  burst+band18 acc=0.998 ll=0.017
++  7.5 min  1 ch  band6=0.497  band18=0.161  burst=0.374  burst+band18=0.157  acc band18=0.943 burst=0.860  burst-band18=+0.178 (burst<band18 0/9)  (burst+band18)-band18=-0.015 (5/9)
++  7.5 min  2 ch  band6=0.271  band18=0.057  burst=0.163  burst+band18=0.055  acc band18=0.980 burst=0.945  burst-band18=+0.094 (burst<band18 0/20)  (burst+band18)-band18=+0.000 (10/20)
++  7.5 min  4 ch  band6=0.109  band18=0.031  burst=0.097  burst+band18=0.032  acc band18=0.990 burst=0.964  burst-band18=+0.057 (burst<band18 0/20)  (burst+band18)-band18=-0.002 (12/20)
++  7.5 min  9 ch  band6=0.055  band18=0.016  burst=0.042  burst+band18=0.017  acc band18=0.998 burst=0.990  burst-band18=+0.026 (burst<band18 0/1)  (burst+band18)-band18=+0.001 (0/1)

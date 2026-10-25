@@ -1,0 +1,38 @@
+{
+    "_comment": "Data file that contains dataset-specific variables",
+    "dataset": "zhou",
+    "dataset_path": "zhou_2016/",
+    "n_subjects": 4,
+    "sfreq": 250,
+    "tmin": -1.0,
+    "tmax": 7.0,
+    "exp_time_periods": [
+        -0.8,
+        0.0,
+        5.0,
+        6.8
+    ],
+    "bin_dt": 0.1,
+    "channels": [
+        "FC3",
+        "FCz",
+        "FC4",
+        "C3",
+        "Cz",
+        "C4",
+        "CP3",
+        "CPz",
+        "CP4"
+    ],
+    "channel_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+    ]
+}

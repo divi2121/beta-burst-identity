@@ -1,0 +1,56 @@
++  0.0 min  loaded S1
++  0.0 min  loaded S2
++  0.0 min  loaded S3
++  0.0 min  loaded S4
++  0.1 min  covariances done
++  0.1 min  bursts: 322214
++  0.2 min  within none: id_cov_acc=0.998  id_cov_ll=0.012  id_mean_acc=0.504  id_hist_acc=0.468
++  0.3 min  within global: id_cov_acc=0.998  id_cov_ll=0.012  id_mean_acc=0.492  id_hist_acc=0.533
++  0.4 min  within ar: id_cov_acc=0.998  id_cov_ll=0.011  id_mean_acc=0.491  id_hist_acc=0.519
++  0.4 min  within faar: id_cov_acc=1.000  id_cov_ll=0.008  id_mean_acc=0.517  id_hist_acc=0.510
++  0.9 min  within random_global: 5/20
++  1.3 min  within random_global: 10/20
++  1.7 min  within random_global: 15/20
++  2.1 min  within random_global: 20/20
++  2.6 min  within random_ar: 5/20
++  3.1 min  within random_ar: 10/20
++  3.6 min  within random_ar: 15/20
++  4.1 min  within random_ar: 20/20
++  4.5 min  within random_faar: 5/20
++  4.9 min  within random_faar: 10/20
++  5.3 min  within random_faar: 15/20
++  5.7 min  within random_faar: 20/20
++  5.8 min  days none: id_cov_acc=0.995  id_cov_ll=0.036  id_mean_acc=0.520  id_hist_acc=0.542
++  5.9 min  days global: id_cov_acc=0.997  id_cov_ll=0.023  id_mean_acc=0.494  id_hist_acc=0.491
++  6.0 min  days ar: id_cov_acc=0.997  id_cov_ll=0.024  id_mean_acc=0.500  id_hist_acc=0.491
++  6.1 min  days faar: id_cov_acc=1.000  id_cov_ll=0.021  id_mean_acc=0.540  id_hist_acc=0.540
++  6.6 min  days random_global: 5/20
++  7.1 min  days random_global: 10/20
++  7.5 min  days random_global: 15/20
++  8.0 min  days random_global: 20/20
++  8.5 min  days random_ar: 5/20
++  9.0 min  days random_ar: 10/20
++  9.5 min  days random_ar: 15/20
++ 10.1 min  days random_ar: 20/20
++ 10.6 min  days random_faar: 5/20
++ 11.0 min  days random_faar: 10/20
++ 11.5 min  days random_faar: 15/20
++ 11.9 min  days random_faar: 20/20
+
+within
+  none    id_cov_acc=0.998  id_cov_ll=0.012  id_mean_acc=0.504  id_hist_acc=0.468  task_S1=0.794  task_S2=0.800  task_S3=0.873  task_S4=0.862
+  global  id_cov_acc=0.998  id_cov_ll=0.012  id_mean_acc=0.492  id_hist_acc=0.533  task_S1=0.818  task_S2=0.759  task_S3=0.849  task_S4=0.873
+  random  id_cov_acc=0.996-1.000  id_cov_ll=0.009-0.015  id_mean_acc=0.476-0.539  id_hist_acc=0.448-0.602  task_S1=0.766-0.829  task_S2=0.746-0.815  task_S3=0.833-0.899  task_S4=0.848-0.897
+  ar      id_cov_acc=0.998  id_cov_ll=0.011  id_mean_acc=0.491  id_hist_acc=0.519  task_S1=0.824  task_S2=0.780  task_S3=0.858  task_S4=0.873
+  random  id_cov_acc=0.996-1.000  id_cov_ll=0.011-0.016  id_mean_acc=0.473-0.543  id_hist_acc=0.451-0.552  task_S1=0.776-0.824  task_S2=0.748-0.847  task_S3=0.823-0.913  task_S4=0.847-0.879
+  faar    id_cov_acc=1.000  id_cov_ll=0.008  id_mean_acc=0.517  id_hist_acc=0.510  task_S1=0.808  task_S2=0.772  task_S3=0.860  task_S4=0.896
+  random  id_cov_acc=0.995-1.000  id_cov_ll=0.010-0.017  id_mean_acc=0.461-0.529  id_hist_acc=0.442-0.498  task_S1=0.741-0.824  task_S2=0.705-0.824  task_S3=0.842-0.924  task_S4=0.804-0.887
+
+days
+  none    id_cov_acc=0.995  id_cov_ll=0.036  id_mean_acc=0.520  id_hist_acc=0.542  task_S1=0.740  task_S2=0.500  task_S3=0.940  task_S4=0.710
+  global  id_cov_acc=0.997  id_cov_ll=0.023  id_mean_acc=0.494  id_hist_acc=0.491  task_S1=0.710  task_S2=0.513  task_S3=0.901  task_S4=0.705
+  random  id_cov_acc=0.993-0.997  id_cov_ll=0.027-0.039  id_mean_acc=0.455-0.522  id_hist_acc=0.430-0.551  task_S1=0.540-0.820  task_S2=0.500-0.641  task_S3=0.880-0.966  task_S4=0.678-0.756
+  ar      id_cov_acc=0.997  id_cov_ll=0.024  id_mean_acc=0.500  id_hist_acc=0.491  task_S1=0.680  task_S2=0.553  task_S3=0.908  task_S4=0.739
+  random  id_cov_acc=0.991-0.997  id_cov_ll=0.031-0.042  id_mean_acc=0.463-0.544  id_hist_acc=0.442-0.542  task_S1=0.620-0.780  task_S2=0.500-0.543  task_S3=0.870-0.952  task_S4=0.670-0.786
+  faar    id_cov_acc=1.000  id_cov_ll=0.021  id_mean_acc=0.540  id_hist_acc=0.540  task_S1=0.594  task_S2=0.500  task_S3=0.964  task_S4=0.803
+  random  id_cov_acc=0.989-0.997  id_cov_ll=0.026-0.047  id_mean_acc=0.456-0.533  id_hist_acc=0.448-0.540  task_S1=0.556-0.865  task_S2=0.500-0.535  task_S3=0.871-0.961  task_S4=0.641-0.814

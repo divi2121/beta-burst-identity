@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.DS_Store
+
+
+# Zhou2016 data and derived arrays: rebuilt by the scripts; keep only the config
+zhou_2016/*
+!zhou_2016/variables.json
+zhou_2016_norej
+*.npy
+*.npz
+!outputs/rejection_masks_zhou.npz

@@ -1,0 +1,124 @@
++  0.0 min  loaded 923 epochs, 246611 bursts
++  0.1 min  band-18 signals done
++  0.3 min  C3: axes by H [7, 10, 11, 8, 3, 5, 12] (H [268.4, 231.1, 195.4, 195.3, 113.8, 70.5, 60.9]); by stability [7, 8, 5, 3, 9, 10, 11] (ratio [13.99, 11.62, 9.7, 7.77, 5.47, 5.35, 4.83])
++  0.3 min  C3:
+set                 model     how  k     C  split   acc    ll
+ C3            F0 shape_z  single  0 0.100   days 0.352 1.304
+ C3        F1 shape_z+amp  single  0 0.010   days 0.556 1.074
+ C3                F4 amp  single  0 0.010   days 0.450 1.143
+ C3              F2 raw_H  single  7 1.000   days 0.643 0.871
+ C3           F3 raw_stab  single  7 1.000   days 0.624 0.869
+ C3          F5 shape_z_H  single  5 0.100   days 0.473 1.149
+ C3       F6 shape_z_stab  single  5 0.100   days 0.455 1.150
+ C3                   B18  single  0 1.000   days 0.936 0.180
+ C3            F0 shape_z  single  0 0.100 within 0.366 1.301
+ C3        F1 shape_z+amp  single  0 0.010 within 0.543 1.067
+ C3                F4 amp  single  0 0.010 within 0.477 1.131
+ C3              F2 raw_H  single  7 1.000 within 0.659 0.806
+ C3           F3 raw_stab  single  7 1.000 within 0.642 0.813
+ C3          F5 shape_z_H  single  5 0.100 within 0.536 1.005
+ C3       F6 shape_z_stab  single  5 0.100 within 0.483 1.083
+ C3                   B18  single  0 1.000 within 0.907 0.217
+ C3      B18 + F0 shape_z stacked  0 0.100   days 0.882 0.288
+ C3      B18 + F0 shape_z  concat  0 1.000   days 0.923 0.188
+ C3  B18 + F1 shape_z+amp stacked  0 0.010   days 0.900 0.232
+ C3  B18 + F1 shape_z+amp  concat  0 1.000   days 0.933 0.164
+ C3          B18 + F4 amp stacked  0 0.010   days 0.872 0.317
+ C3          B18 + F4 amp  concat  0 1.000   days 0.936 0.163
+ C3        B18 + F2 raw_H stacked  7 1.000   days 0.880 0.325
+ C3        B18 + F2 raw_H  concat  7 1.000   days 0.928 0.203
+ C3     B18 + F3 raw_stab stacked  7 1.000   days 0.880 0.295
+ C3     B18 + F3 raw_stab  concat  7 1.000   days 0.924 0.192
+ C3    B18 + F5 shape_z_H stacked  5 0.100   days 0.876 0.306
+ C3    B18 + F5 shape_z_H  concat  5 1.000   days 0.932 0.193
+ C3 B18 + F6 shape_z_stab stacked  5 0.100   days 0.891 0.294
+ C3 B18 + F6 shape_z_stab  concat  5 1.000   days 0.929 0.183
++  0.4 min  C3+C4: axes by H [7, 10, 11, 9, 3, 8, 5] (H [358.3, 261.6, 250.0, 202.0, 198.6, 183.5, 113.9]); by stability [7, 8, 3, 1, 5, 6, 10] (ratio [15.92, 11.68, 10.69, 7.88, 7.71, 6.79, 3.93])
++  0.5 min  C3+C4:
+  set                 model     how  k     C  split   acc    ll
+C3+C4            F0 shape_z  single  0 0.100   days 0.441 1.219
+C3+C4        F1 shape_z+amp  single  0 0.010   days 0.612 0.939
+C3+C4                F4 amp  single  0 0.010   days 0.498 1.080
+C3+C4              F2 raw_H  single  7 0.100   days 0.802 0.518
+C3+C4           F3 raw_stab  single  7 0.100   days 0.815 0.557
+C3+C4          F5 shape_z_H  single  7 0.100   days 0.620 0.845
+C3+C4       F6 shape_z_stab  single  7 0.100   days 0.616 0.825
+C3+C4                   B18  single  0 1.000   days 0.977 0.068
+C3+C4            F0 shape_z  single  0 0.100 within 0.432 1.219
+C3+C4        F1 shape_z+amp  single  0 0.010 within 0.647 0.933
+C3+C4                F4 amp  single  0 0.010 within 0.512 1.063
+C3+C4              F2 raw_H  single  7 0.100 within 0.796 0.531
+C3+C4           F3 raw_stab  single  7 0.100 within 0.800 0.530
+C3+C4          F5 shape_z_H  single  7 0.100 within 0.653 0.753
+C3+C4       F6 shape_z_stab  single  7 0.100 within 0.669 0.727
+C3+C4                   B18  single  0 1.000 within 0.974 0.063
+C3+C4      B18 + F0 shape_z stacked  0 0.100   days 0.969 0.071
+C3+C4      B18 + F0 shape_z  concat  0 1.000   days 0.977 0.072
+C3+C4  B18 + F1 shape_z+amp stacked  0 0.010   days 0.960 0.086
+C3+C4  B18 + F1 shape_z+amp  concat  0 1.000   days 0.985 0.050
+C3+C4          B18 + F4 amp stacked  0 0.010   days 0.960 0.097
+C3+C4          B18 + F4 amp  concat  0 1.000   days 0.985 0.050
+C3+C4        B18 + F2 raw_H stacked  7 0.100   days 0.957 0.087
+C3+C4        B18 + F2 raw_H  concat  7 1.000   days 0.976 0.072
+C3+C4     B18 + F3 raw_stab stacked  7 0.100   days 0.966 0.078
+C3+C4     B18 + F3 raw_stab  concat  7 1.000   days 0.974 0.077
+C3+C4    B18 + F5 shape_z_H stacked  7 0.100   days 0.956 0.095
+C3+C4    B18 + F5 shape_z_H  concat  7 1.000   days 0.977 0.065
+C3+C4 B18 + F6 shape_z_stab stacked  7 0.100   days 0.956 0.098
+C3+C4 B18 + F6 shape_z_stab  concat  7 1.000   days 0.974 0.070
++  0.6 min  all9: axes by H [10, 9, 3, 11, 7, 5, 12] (H [410.4, 360.1, 344.6, 334.4, 204.2, 152.7, 126.2]); by stability [7, 10, 9, 5, 8, 3, 1] (ratio [173.61, 20.43, 17.27, 11.28, 8.05, 7.08, 4.25])
++  0.7 min  all9:
+ set                 model     how  k      C  split   acc    ll
+all9            F0 shape_z  single  0  0.010   days 0.475 1.050
+all9        F1 shape_z+amp  single  0  0.010   days 0.705 0.740
+all9                F4 amp  single  0  0.001   days 0.443 1.170
+all9              F2 raw_H  single  7  1.000   days 0.918 0.253
+all9           F3 raw_stab  single  7  0.100   days 0.904 0.289
+all9          F5 shape_z_H  single  7  0.010   days 0.714 0.637
+all9       F6 shape_z_stab  single  3  0.100   days 0.725 0.653
+all9                   B18  single  0 10.000   days 0.998 0.020
+all9            F0 shape_z  single  0  0.010 within 0.502 1.037
+all9        F1 shape_z+amp  single  0  0.010 within 0.725 0.675
+all9                F4 amp  single  0  0.001 within 0.475 1.154
+all9              F2 raw_H  single  7  1.000 within 0.909 0.255
+all9           F3 raw_stab  single  7  0.100 within 0.879 0.333
+all9          F5 shape_z_H  single  7  0.010 within 0.789 0.562
+all9       F6 shape_z_stab  single  3  0.100 within 0.728 0.609
+all9                   B18  single  0 10.000 within 0.998 0.009
+all9      B18 + F0 shape_z stacked  0  0.010   days 0.995 0.022
+all9      B18 + F0 shape_z  concat  0 10.000   days 0.995 0.020
+all9  B18 + F1 shape_z+amp stacked  0  0.010   days 0.988 0.047
+all9  B18 + F1 shape_z+amp  concat  0  1.000   days 0.995 0.020
+all9          B18 + F4 amp stacked  0  0.001   days 0.995 0.024
+all9          B18 + F4 amp  concat  0 10.000   days 0.998 0.016
+all9        B18 + F2 raw_H stacked  7  1.000   days 0.990 0.056
+all9        B18 + F2 raw_H  concat  7 10.000   days 1.000 0.014
+all9     B18 + F3 raw_stab stacked  7  0.100   days 0.990 0.044
+all9     B18 + F3 raw_stab  concat  7  1.000   days 0.995 0.020
+all9    B18 + F5 shape_z_H stacked  7  0.010   days 1.000 0.010
+all9    B18 + F5 shape_z_H  concat  7 10.000   days 0.995 0.017
+all9 B18 + F6 shape_z_stab stacked  3  0.100   days 0.992 0.031
+all9 B18 + F6 shape_z_stab  concat  3 10.000   days 0.998 0.018
++  0.7 min  stacking weights (sum |coef|):
+  set           model  weight_B18  weight_other
+   C3      F0 shape_z        7.68          6.68
+   C3  F1 shape_z+amp        6.94         12.15
+   C3          F4 amp        6.90         11.05
+   C3        F2 raw_H        6.90          3.25
+   C3     F3 raw_stab        6.94          3.52
+   C3    F5 shape_z_H        7.68          3.80
+   C3 F6 shape_z_stab        7.61          4.46
+C3+C4      F0 shape_z        8.68          2.91
+C3+C4  F1 shape_z+amp        8.12          7.96
+C3+C4          F4 amp        8.07          8.16
+C3+C4        F2 raw_H        8.67          3.14
+C3+C4     F3 raw_stab        8.54          3.48
+C3+C4    F5 shape_z_H        8.11          4.15
+C3+C4 F6 shape_z_stab        8.14          4.14
+ all9      F0 shape_z       10.01          2.89
+ all9  F1 shape_z+amp        9.14          4.16
+ all9          F4 amp        9.91          2.56
+ all9        F2 raw_H        7.68          2.97
+ all9     F3 raw_stab        7.97          4.10
+ all9    F5 shape_z_H        8.33          4.52
+ all9 F6 shape_z_stab        8.74          3.68
